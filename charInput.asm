@@ -51,14 +51,10 @@ MAIN PROC
     
     MOV DL,CL
     MOV AH,2
-    INT 21H 
-    
-    
-    
-    
+    INT 21H
      
     ;Exit Code
     MOV AH, 4CH
     INT 21H
     MAIN ENDP
-END
+END MAIN
