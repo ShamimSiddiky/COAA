@@ -25,10 +25,9 @@ main proc
         MOV AH,1
         INT 21H
     
-    BASE: 
-    MOV AH,0
+    BASE:
     NEG AL
-    CMP AX,0
+    CMP AL,0
     JNLE EXIT
     MOV BH,0
     MOV BL,-1
