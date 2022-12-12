@@ -1,8 +1,8 @@
 .model small
 .stack 100h
 .data
-msg1 db "Input: $"
-msg2 db "Output: $"
+msg1 db "Input : $"
+msg2 db "Output : $"
 
 
 
